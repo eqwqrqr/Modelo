@@ -1,0 +1,7 @@
+s = str(input('Escribe una frase de 2 palabras:'))
+
+#print(s.find(' '))
+#print(s[:(s.find(' '))])
+#print(s[(s.find(' ')):])
+
+print((s[(s.find(' ')):]) + ' ' + (s[:(s.find(' '))]))

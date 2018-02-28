@@ -1,0 +1,2 @@
+s= "Buenos dias mundo"
+print(len(s))

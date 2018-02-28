@@ -1,0 +1,8 @@
+#Separa la cadena y te la da invertida
+
+s = str(input('Escribe algo:'))
+
+print(s[:(len(s)//2)])
+print(s[(len(s)//2):])
+
+print(str(s[(len(s)//2):]) + ' ' + str(s[:(len(s)//2)]))
