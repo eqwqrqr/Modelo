@@ -1,0 +1,4 @@
+cadena= input("escribe una frase que contenga dos t:")
+x = cadena.find("t")
+y = cadena.rfind("t")
+print ((cadena[:x])+(cadena[y+1:]))
